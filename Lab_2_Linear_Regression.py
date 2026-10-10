@@ -9,7 +9,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 
  
-df = pd.read_csv("C:\Users\ASUS\OneDrive\Documents\RBU\3rd Year\5th Sem\ML  Lab\Codes\house_prices.csv")
+df = pd.read_csv("house_prices.csv")
 
 print("First five rows:")
 print(df.head())
